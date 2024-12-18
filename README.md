@@ -1,3 +1,26 @@
+<h2>Objective</h2>
+
+<p>The goal of this project is to predict whether it will rain tomorrow (<code>RainTomorrow</code>) using a variety of weather features. By leveraging machine learning algorithms, we aim to identify the most effective model for predicting rainfall based on historical weather data.</p>
+
+<p>Specifically, the project focuses on evaluating the performance of multiple machine learning models to determine their accuracy, reliability, and suitability for this binary classification task.</p>
+
+<h2>Data</h2>
+
+<p>The dataset contains historical weather data with the following key features:</p>
+<ul>
+  <li><strong>Date:</strong> The date of the weather observation.</li>
+  <li><strong>MinTemp:</strong> The minimum temperature recorded on the day.</li>
+  <li><strong>MaxTemp:</strong> The maximum temperature recorded on the day.</li>
+  <li><strong>Humidity3pm:</strong> Humidity level recorded at 3 PM.</li>
+  <li><strong>Temp3pm:</strong> Temperature recorded at 3 PM.</li>
+  <li><strong>RainToday:</strong> Whether it rained on the given day (<code>Yes</code> or <code>No</code>).</li>
+  <li><strong>RainTomorrow:</strong> The target variable indicating if it will rain the next day (<code>Yes</code> or <code>No</code>).</li>
+</ul>
+
+<p>Additional categorical features include wind direction (<code>WindGustDir</code>, <code>WindDir9am</code>, <code>WindDir3pm</code>), which were one-hot encoded during preprocessing.</p>
+<p>The dataset was preprocessed to replace categorical values like <code>Yes</code>/<code>No</code> with binary values (<code>1</code> for <code>Yes</code>, <code>0</code> for <code>No</code>) and normalize numerical values for certain models.</p>
+
+
 <h2>Methodology</h2>
 
 <ol>
